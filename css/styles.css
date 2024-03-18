@@ -373,6 +373,9 @@ button {
   column-gap: 24px;
   row-gap: 48px;
 }
+.portfolio-list:hover {
+  transform: translateY(0%);
+}
 
 .portfolio-list-item {
   width: calc((100% - 48px) / 3);
