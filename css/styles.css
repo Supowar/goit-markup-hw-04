@@ -34,6 +34,8 @@ button {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  align-items: baseline;
 }
 
 /* конкретные коассы */
@@ -468,4 +470,17 @@ button {
 .footer-ul {
   display: flex;
   gap: 16px;
+}
+
+.footer-ul:hover {
+  background-color: #31d0aa;
+}
+
+.footer-ul:focus {
+  background-color: #31d0aa;
+}
+
+.footer-li {
+  width: 40px;
+  height: 40px;
 }
