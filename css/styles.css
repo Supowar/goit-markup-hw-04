@@ -34,8 +34,6 @@ button {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: flex;
-  align-items: baseline;
 }
 
 /* конкретные коассы */
@@ -327,11 +325,6 @@ button {
   padding-bottom: 100px;
 }
 
-.container-2 {
-  display: flex;
-  align-items: baseline;
-}
-
 .logo {
   line-height: 1.17;
 }
@@ -472,15 +465,15 @@ button {
   gap: 16px;
 }
 
-.footer-ul:hover {
-  background-color: #31d0aa;
-}
-
-.footer-ul:focus {
-  background-color: #31d0aa;
-}
-
 .footer-li {
   width: 40px;
   height: 40px;
+}
+
+.footer-conatiner {
+  display: flex;
+  align-items: baseline;
+}
+.footer-icons-link {
+  background-color: #31d0aa;
 }
